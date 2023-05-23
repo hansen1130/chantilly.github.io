@@ -154,7 +154,9 @@
     left: 0;
     width: 100%;
     height: auto;
-    object-fit: cover;
+    object-fit: contain;
+    overflow-clip-margin: content-box;
+    overflow: clip;
 }
 
 .chantilly-page1 {
