@@ -131,24 +131,30 @@
 
 .chantilly-video {
     position: relative;
-    padding-bottom: 56%;
-    background-color: white;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding-bottom: 60%;
+    overflow: hidden;
 }
 
+.chantilly-video-mobile {
+    position: relative;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding-bottom: 150%;
+    overflow: hidden;
+}
 
-
-.chantilly-video video {
+.chantilly-video video,
+.chantilly-video-mobile video {
     position: absolute;
     top: 0;
     left: 0;
+    width: 100%;
     height: auto;
-    width: 100%;
-    background-color: white;
-}
-
-.chantilly-video-mobile video {
-    width: 100%;
-    background-color: white;
+    object-fit: cover;
 }
 
 .chantilly-page1 {
@@ -1187,27 +1193,32 @@
     align-content: center;
     padding: 2rem 0;
 }
+
 @media (max-width: 1600px) {
     .chantilly-essence-product {
-    background-size: contain;
+        background-size: contain;
+    }
 }
-}
+
 @media (max-width: 535px) {
     .chantilly-essence-product {
-    background-image: url(../img/chantilly_bg7_mobile.svg);
+        background-image: url(../img/chantilly_bg7_mobile.svg);
+    }
 }
-}
+
 .chantilly-essence-product-margin {
     margin-top: 2rem;
     padding: 0;
 }
-.chantilly-bodylotion-img img{
-margin-right: 150px;
+
+.chantilly-bodylotion-img img {
+    margin-right: 150px;
 }
+
 @media (max-width: 630px) {
-    .chantilly-bodylotion-img img{
-margin-right: 80px;
-}
+    .chantilly-bodylotion-img img {
+        margin-right: 80px;
+    }
 }
 
 
