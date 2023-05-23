@@ -200,6 +200,7 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    padding-right: 3rem;
 }
 
 .chantilly-text {
@@ -249,6 +250,7 @@
 
     .chantilly-page1-content {
         width: 90%;
+        padding-right: 0;
     }
 
     .chantilly-page1-icon {
@@ -450,7 +452,22 @@
 .chantilly-page2-product-button a:hover {
     background-color: #CEBB8B;
 }
+.chantilly-back-button{
+    text-align: center;
+}
+.chantilly-back-button a {
+    display: inline-block;
+    font-size: 1rem;
+    color: #fff;
+    background-color: #6B8EAE;
+    padding: 1rem 3rem;
+    transition: all .3s linear;
+    margin-top: 7rem;
+}
 
+.chantilly-back-button a:hover {
+    background-color: #CEBB8B;
+}
 .chantilly-page2-product1-sort1 {
     display: flex;
     gap: 1rem;
