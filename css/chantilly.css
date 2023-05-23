@@ -132,6 +132,7 @@
 .chantilly-video {
     position: relative;
     padding-bottom: 56%;
+    background-color: white;
 }
 
 
@@ -142,11 +143,12 @@
     left: 0;
     height: auto;
     width: 100%;
+    background-color: white;
 }
 
 .chantilly-video-mobile video {
-
     width: 100%;
+    background-color: white;
 }
 
 .chantilly-page1 {
