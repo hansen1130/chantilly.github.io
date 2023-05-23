@@ -13,7 +13,7 @@
     <meta property="og:title" content="赫朵Chantilly保養品-讓您擁有健康肌膚">
     <meta property="og:description" content="擁有健康肌膚是每個人的夢想，而保養品的選擇就是關鍵！赫朵 chantilly 全系列保養品，包括臉部卸妝、痘痘粉刺調理、控油、身體美白、去角質產品，都是經過嚴選的精品，給您一個完美的肌膚呈現！">
     <meta property="og:url" content="https://hansen1130.github.io/lynn.github.io/chantilly.html">
-    <meta property="og:image" content="https://hansen1130.github.io/lynn.github.io/img/chantilly.webp">
+    <meta property="og:image" content="https://hansen1130.github.io/chantilly.github.io/img/chantilly.webp">
 </head>
 
 <body>
@@ -39,13 +39,13 @@
                 <p class="chantilly-banner-content-text">赫朵呵護細緻肌膚的真心承諾。必須知道!自身肌膚不僅關乎美觀，更與身心健康息息相關。因此，赫朵以四大訴求為基礎，從潔淨、平衡、修護、保濕等角度出發，為您提供全方位的保養解決方案，讓您的肌膚得到細心呵護，遠離化學添加物的危害。讓您感受赫朵完美肌膚的核心理念，同時擁有自信亮麗、人人稱羨的美膚哲學。</p>
             </div>
             <div class="chantilly-video">
-                <video autoplay muted loop playsinline preload="metadata">
+                <video autoplay muted loop playsinline>
                     <source src="img/chantilly_banner.mp4" type="video/mp4" title="Chantilly Video">
                 </video>
             </div>
             <div class="chantilly-video-mobile">
-                <video autoplay muted loop playsinline preload="metadata">
-                    <source src="https://hansen1130.github.io/chantilly.github.io/img/chantilly_banner_mobile.mp4" type="video/mp4" title="Chantilly Video Mobile">
+                <video id="myVideo" muted loop playsinline>
+                    <source src="img/chantilly_banner_mobile.mp4" type="video/mp4" title="Chantilly Video Mobile">
                 </video>
             </div>
         </div>
@@ -325,6 +325,10 @@ $(function() {
         }
     });
 });
+ var video = document.getElementById("myVideo");
+    video.addEventListener("loadedmetadata", function() {
+        video.play();
+    });
 </script>
 
 </html>
