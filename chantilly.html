@@ -44,7 +44,7 @@
                 </video>
             </div>
             <div class="chantilly-video-mobile">
-                <video id="myVideo" muted loop playsinline>
+                <video autoplay muted playsinline loop id="myVideo">
                     <source src="img/chantilly_banner_mobile.mp4" type="video/mp4" title="Chantilly Video Mobile">
                 </video>
             </div>
@@ -325,8 +325,10 @@ $(function() {
         }
     });
 });
- var video = document.getElementById("myVideo");
-    video.addEventListener("loadedmetadata", function() {
+</script>
+<script>
+    var video = document.getElementById("myVideo");
+    video.addEventListener("canplay", function() {
         video.play();
     });
 </script>
