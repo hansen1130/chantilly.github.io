@@ -330,7 +330,7 @@
     line-height: 5rem;
     text-align: center;
     color: #FFFFFF;
-    margin-top: 8rem;
+    margin-top: 3rem;
 }
 
 .chantilly-video1-img-text>span {
@@ -341,8 +341,8 @@
 @media (max-width: 1400px) {
     .chantilly-video1-img-text {
         font-size: 3rem;
-        line-height: 4rem;
-        margin-top: 4rem;
+        line-height: 3rem;
+        margin-top: 2rem;
     }
 
     .chantilly-video1-img-text>span {
@@ -353,7 +353,7 @@
     .chantilly-video1-img-text {
         font-size: 2rem;
         line-height: 3rem;
-        margin-top: 4rem;
+        margin-top: 1rem;
     }
 
     .chantilly-video1-img-text>span {
